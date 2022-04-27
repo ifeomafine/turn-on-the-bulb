@@ -1,0 +1,42 @@
+
+
+*{
+    box-sizing: border-box;
+}
+.content {
+    box-shadow: 0 8px 4px 0 violet;
+    max-width: 400px;
+    padding: 2%;
+    margin: 5% 15% 5% 20%;
+}
+.content h2 {
+    color: violet;
+    text-shadow: 1px 1px #000;
+    background-color: gray;
+}
+.content p {
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.span {
+    text-shadow: 2px 2px violet;
+}
+button {
+    border-radius: 10px;
+    padding: 2%;
+    cursor: pointer;
+    background-color: violet;
+    color: white;
+}
+button:active {
+    background-color: blueviolet;
+    box-shadow: 0 5px gainsboro;
+    transform: translateY(5px);
+}
+@media screen and (max-width:481px) {
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+}
